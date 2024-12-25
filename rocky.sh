@@ -34,7 +34,7 @@ install_software()
       https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
     yum install epel-release -y
     yum update -y
-    yum install git wget screen  nmap vim htop iftop iotop gcc gcc-c++ net-tools unzip nfs-utils psmisc zip rsync telnet nano -y
+    yum install git wget screen  nmap vim htop iftop iotop gcc gcc-c++ net-tools unzip nfs-utils psmisc zip rsync telnet nano tar -y
     echo "software installed !!!"
 }
 
